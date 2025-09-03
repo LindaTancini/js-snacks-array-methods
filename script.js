@@ -74,3 +74,62 @@ console.log(es9);
 const colors = ["rosso", "blu", "verde", "giallo", "viola"];
 const es10 = colors.filter((e) => e.includes("o"));
 console.log(es10);
+
+// Esercizio 11 - Hai questo array di numeri, crea un nuovo array con i numeri moltiplicati per 2. (map)
+
+const numbers3 = [2, 5, 7, 9, 12, 15];
+const es11 = numbers3.map((e) => e * 2);
+console.log(es11);
+
+// Esercizio 12 - Hai questo array di età, filtra solo le persone maggiorenni. (filter)
+
+const ages = [12, 18, 25, 30, 15, 40];
+const es12 = ages.filter((e) => e >= 18);
+console.log(es12);
+
+// Esercizio 13 - Hai questo array di stringhe, trova la prima parola che ha più di 4 lettere. (find)
+
+const fruits = ["mela", "banana", "pera", "kiwi"];
+const es13 = fruits.find((e) => e.length > 4);
+console.log(es13);
+
+// Esercizio 14 - Hai questo array di numeri, verifica se tutti i punteggi sono almeno 40. (every)
+
+const scores = [50, 80, 95, 40, 70];
+const es14 = scores.every((e) => e >= 40);
+console.log(es14);
+
+// Esercizio 15 - Hai questo array di voti, controlla se c’è almeno un voto maggiore di 9. (some)
+
+const votes = [3, 6, 8, 4, 10];
+const es15 = votes.some((e) => e > 9);
+console.log(es15);
+
+// Esercizio 16 - Hai questo array di parole, ordinale in base alla lunghezza crescente. (sort)
+
+const words2 = ["ciao", "javascript", "web", "react"];
+const es16 = words2.sort((a, b) => a.length - b.length);
+console.log(es16);
+
+// Esercizio 17 - ai questo array di numeri, calcola la somma totale. (reduce)
+
+const values = [1, 2, 3, 4, 5];
+const es17 = values.reduce((sum, e) => sum + e, 0);
+console.log(es17);
+
+// Esercizio 18 - ai questo array di colori, stampa ogni colore con il testo: "Colore: ". (forEach)
+
+const colors2 = ["rosso", "verde", "blu"];
+colors2.forEach((e) => console.log("Colore:" + e));
+
+// Esercizio 19 -Hai questo array di parole, crea un array di parole maiuscole. (map)
+
+const words3 = ["sole", "luna", "cielo", "mare"];
+const es19 = words3.map((e) => e.toUpperCase());
+console.log(es19);
+
+// Esercizio 20 - Hai questo array di numeri, verifica se l’array contiene il numero 15. (includes)
+
+const numbers4 = [5, 10, 15, 20];
+const es20 = numbers4.includes(15);
+console.log(es20);
