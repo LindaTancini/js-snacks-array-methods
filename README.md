@@ -99,3 +99,83 @@ Hai questo array di colori, stampa i colori che contengono la lettera "o".
 ```js
 const colors = ["rosso", "blu", "verde", "giallo", "viola"];
 ```
+
+## 🔹 Snack 11
+
+Hai questo array di numeri, crea un nuovo array con i numeri moltiplicati per 2. (map)
+
+```js
+const numbers = [2, 5, 7, 9, 12, 15];
+```
+
+## 🔹 Snack 12
+
+Hai questo array di età, filtra solo le persone maggiorenni. (filter)
+
+```js
+const ages = [12, 18, 25, 30, 15, 40];
+```
+
+## 🔹 Snack 13
+
+Hai questo array di stringhe, trova la prima parola che ha più di 4 lettere. (find)
+
+```js
+const fruits = ["mela", "banana", "pera", "kiwi"];
+```
+
+## 🔹 Snack 14
+
+Hai questo array di numeri, verifica se tutti i punteggi sono almeno 40. (every)
+
+```js
+const scores = [50, 80, 95, 40, 70];
+```
+
+## 🔹 Snack 15
+
+Hai questo array di voti, controlla se c’è almeno un voto maggiore di 9. (some)
+
+```js
+const votes = [3, 6, 8, 4, 10];
+```
+
+## 🔹 Snack 16
+
+Hai questo array di parole, ordinale in base alla lunghezza crescente. (sort)
+
+```js
+const words = ["ciao", "javascript", "web", "react"];
+```
+
+## 🔹 Snack 17
+
+Hai questo array di numeri, calcola la somma totale. (reduce)
+
+```js
+const values = [1, 2, 3, 4, 5];
+```
+
+## 🔹 Snack 18
+
+Hai questo array di colori, stampa ogni colore con il testo: "Colore: <nome>". (forEach)
+
+```js
+const colors = ["rosso", "verde", "blu"];
+```
+
+## 🔹 Snack 19
+
+Hai questo array di parole, crea un array di parole maiuscole. (map)
+
+```js
+const words = ["sole", "luna", "cielo", "mare"];
+```
+
+## 🔹 Snack 20
+
+Hai questo array di numeri, verifica se l’array contiene il numero 15. (includes)
+
+```js
+const numbers = [5, 10, 15, 20];
+```
