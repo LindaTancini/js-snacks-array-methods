@@ -133,3 +133,104 @@ console.log(es19);
 const numbers4 = [5, 10, 15, 20];
 const es20 = numbers4.includes(15);
 console.log(es20);
+
+// Esercizio 21 - Hai questo array di libri, stampa solo i libri con più di 500 pagine.
+
+const books = [
+  { title: "Il signore degli anelli", pages: 1200 },
+  { title: "Harry Potter", pages: 600 },
+  { title: "Il piccolo principe", pages: 90 },
+];
+const es21 = books.filter((e) => e.pages > 500);
+console.log(es21);
+
+// Esercizio 22 - Hai questo array di film, crea un array con i titoli dei film che hanno un voto sopra 8.
+
+const movies = [
+  { title: "Inception", rating: 8.8 },
+  { title: "Titanic", rating: 7.9 },
+  { title: "The Room", rating: 3.7 },
+];
+const es22 = movies.filter((e) => e.rating > 8).map((e) => e.title);
+console.log(es22);
+
+// Esercizio 23 - Hai questo array di utenti, trova il primo utente inattivo.
+
+const users = [
+  { name: "Alice", active: true },
+  { name: "Bob", active: false },
+  { name: "Charlie", active: true },
+];
+const es23 = users.find((e) => e.active === false);
+console.log(es23);
+
+// Esercizio 24 - Hai questo array di prodotti, calcola la somma totale dei prezzi.
+
+const products2 = [
+  { name: "Laptop", price: 1000 },
+  { name: "Telefono", price: 500 },
+  { name: "Tablet", price: 300 },
+];
+const es24 = products2.reduce((sum, e) => sum + e.price, 0);
+console.log(es24);
+
+// Esercizio 25 - Hai questo array di studenti, stampa i nomi degli studenti con voto >= 28.
+
+const students2 = [
+  { name: "Anna", grade: 28 },
+  { name: "Luca", grade: 18 },
+  { name: "Marco", grade: 30 },
+];
+const es25 = students2.filter((e) => e.grade >= 28).map((e) => e.name);
+console.log(es25);
+
+// Esercizio 26 - Hai questo array di squadre, ordina le squadre in base ai punti decrescenti.
+
+const teams = [
+  { name: "Juventus", points: 70 },
+  { name: "Milan", points: 65 },
+  { name: "Inter", points: 72 },
+];
+const es26 = teams.sort((a, b) => b.points - a.points);
+console.log(es26);
+
+// Esercizio 27 - Hai questo array di ordini, verifica se almeno un ordine supera i 300 euro.
+
+const orders = [
+  { id: 1, total: 250 },
+  { id: 2, total: 400 },
+  { id: 3, total: 100 },
+];
+const es27 = orders.some((e) => e.total > 300);
+console.log(es27);
+
+// Esercizio 28 - Hai questo array di playlist, crea un array con la durata di ogni canzone in minuti (arrotondando).
+
+const playlist = [
+  { song: "Song A", duration: 200 },
+  { song: "Song B", duration: 180 },
+  { song: "Song C", duration: 240 },
+];
+const es28 = playlist.map((e) => Math.round(e.duration / 60));
+console.log(es28);
+
+// Esercizio 29 - Hai questo array di dipendenti, trova il dipendente con lo stipendio più alto.
+
+const employees = [
+  { name: "Sara", salary: 2000 },
+  { name: "Paolo", salary: 2500 },
+  { name: "Marta", salary: 1800 },
+];
+const es29 = employees.reduce((max, e) => (e.salary > max.salary ? e : max));
+console.log(es29);
+
+// Esercizio 30 - Hai questo array di negozi, stampa i nomi dei negozi che sono aperti.
+
+const stores = [
+  { name: "Negozio A", open: true },
+  { name: "Negozio B", open: false },
+  { name: "Negozio C", open: true },
+];
+
+const es30 = stores.filter((e) => e.open).map((e) => e.name);
+console.log(es30);
