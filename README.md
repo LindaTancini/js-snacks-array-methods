@@ -179,3 +179,123 @@ Hai questo array di numeri, verifica se l’array contiene il numero 15. (includ
 ```js
 const numbers = [5, 10, 15, 20];
 ```
+
+## 🔹 Snack 21
+
+Hai questo array di libri, stampa solo i libri con più di 500 pagine.
+
+```js
+const books = [
+  { title: "Il signore degli anelli", pages: 1200 },
+  { title: "Harry Potter", pages: 600 },
+  { title: "Il piccolo principe", pages: 90 },
+];
+```
+
+## 🔹 Snack 22
+
+Hai questo array di film, crea un array con i titoli dei film che hanno un voto sopra 8.
+
+```js
+const movies = [
+  { title: "Inception", rating: 8.8 },
+  { title: "Titanic", rating: 7.9 },
+  { title: "The Room", rating: 3.7 },
+];
+```
+
+## 🔹 Snack 23
+
+Hai questo array di utenti, trova il primo utente inattivo.
+
+```js
+const users = [
+  { name: "Alice", active: true },
+  { name: "Bob", active: false },
+  { name: "Charlie", active: true },
+];
+```
+
+## 🔹 Snack 24
+
+Hai questo array di prodotti, calcola la somma totale dei prezzi.
+
+```js
+const products = [
+  { name: "Laptop", price: 1000 },
+  { name: "Telefono", price: 500 },
+  { name: "Tablet", price: 300 },
+];
+```
+
+## 🔹 Snack 25
+
+Hai questo array di studenti, stampa i nomi degli studenti con voto >= 28.
+
+```js
+const students = [
+  { name: "Anna", grade: 28 },
+  { name: "Luca", grade: 18 },
+  { name: "Marco", grade: 30 },
+];
+```
+
+## 🔹 Snack 26
+
+Hai questo array di squadre, ordina le squadre in base ai punti decrescenti.
+
+```js
+const teams = [
+  { name: "Juventus", points: 70 },
+  { name: "Milan", points: 65 },
+  { name: "Inter", points: 72 },
+];
+```
+
+## 🔹 Snack 27
+
+Hai questo array di ordini, verifica se almeno un ordine supera i 300 euro.
+
+```js
+const orders = [
+  { id: 1, total: 250 },
+  { id: 2, total: 400 },
+  { id: 3, total: 100 },
+];
+```
+
+## 🔹 Snack 28
+
+Hai questo array di playlist, crea un array con la durata di ogni canzone in minuti (arrotondando).
+
+```js
+const playlist = [
+  { song: "Song A", duration: 200 },
+  { song: "Song B", duration: 180 },
+  { song: "Song C", duration: 240 },
+];
+```
+
+## 🔹 Snack 29
+
+Hai questo array di dipendenti, trova il dipendente con lo stipendio più alto.
+
+```js
+const employees = [
+  { name: "Sara", salary: 2000 },
+  { name: "Paolo", salary: 2500 },
+  { name: "Marta", salary: 1800 },
+];
+```
+
+## 🔹 Snack 30
+
+Hai questo array di negozi, stampa i nomi dei negozi che sono aperti.
+
+```js
+const stores = [
+  { name: "Negozio A", open: true },
+  { name: "Negozio B", open: false },
+  { name: "Negozio C", open: true },
+];
+```
